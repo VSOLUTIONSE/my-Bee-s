@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg text-gray-600 max-w-lg leading-relaxed">
-              I help businesses scale their online presence, engage customers, and streamline operations remotely. 
+              I help businesses, brands and companies manage their social media, engage customers, and stay organized remotely. Reliable, creative, and profitable.
               <br/>
               <span className="font-semibold text-gray-900 mt-3 block flex items-center gap-2">
                  🚀 Strategy | Content | Admin Support

@@ -1,37 +1,32 @@
 import React from 'react';
-import { Star } from 'lucide-react';
 
 const Marquee: React.FC = () => {
+  // Repeat items to ensure smooth scrolling
   const items = [
-    "Social Media Management",
-    "Content Creation",
-    "Virtual Assistance",
-    "Community Engagement",
-    "Email Marketing",
-    "Customer Support",
-    "Video Editing",
-    "Copywriting"
+    "SOCIAL MEDIA",
+    "CONTENT CREATION",
+    "VIRTUAL ASSISTANT"
   ];
 
   return (
-    <div className="bg-brand py-6 rotate-0 md:-rotate-1 overflow-hidden shadow-lg mb-20">
+    <div className="bg-brand py-5 rotate-0 md:-rotate-1 overflow-hidden shadow-lg mb-20 border-y-2 border-brand-dark/10">
       <div className="flex animate-marquee whitespace-nowrap">
-        {[...items, ...items, ...items].map((item, index) => (
-          <div key={index} className="flex items-center mx-6">
-            <span className="text-gray-900 font-extrabold text-xl uppercase tracking-wider">{item}</span>
-            <Star className="ml-6 text-black fill-black" size={20} />
+        {[...items, ...items, ...items, ...items, ...items, ...items].map((item, index) => (
+          <div key={index} className="flex items-center mx-4 md:mx-8">
+            <span className="text-black font-extrabold text-lg md:text-xl uppercase tracking-widest">{item}</span>
+            <span className="ml-8 md:ml-16 text-black font-bold text-2xl">*</span>
           </div>
         ))}
       </div>
       
-      {/* Inline style for the basic marquee animation since tailwind doesn't have it by default without config */}
+      {/* Inline style for the basic marquee animation */}
       <style>{`
         @keyframes marquee {
           0% { transform: translateX(0); }
           100% { transform: translateX(-50%); }
         }
         .animate-marquee {
-          animation: marquee 30s linear infinite;
+          animation: marquee 40s linear infinite;
         }
       `}</style>
     </div>
