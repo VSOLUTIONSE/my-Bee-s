@@ -40,27 +40,8 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-gray-600 text-lg leading-relaxed mb-10">
-              I’ve worked with travel, logistics, and retail brands, ensuring they stay active online while maintaining crystal-clear communication with their customers. I pride myself on being reliable, organized, and proactive.
+              I've worked with travel, logistics, and retail brands, ensuring they stay active online while maintaining crystal-clear communication with their customers. I pride myself on being reliable, organized, and proactive.
             </p>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-10 border-t border-gray-100 pt-8">
-              <div className="flex flex-col group/stat cursor-default">
-                <span className="text-3xl font-extrabold text-black group-hover/stat:text-brand transition-colors">15+</span>
-                <span className="text-sm text-gray-500 font-medium mt-1">Projects Done</span>
-              </div>
-              <div className="flex flex-col group/stat cursor-default">
-                 <span className="text-3xl font-extrabold text-black group-hover/stat:text-brand transition-colors">4+</span>
-                 <span className="text-sm text-gray-500 font-medium mt-1">Years Exp.</span>
-              </div>
-              <div className="flex flex-col group/stat cursor-default">
-                 <span className="text-3xl font-extrabold text-black group-hover/stat:text-brand transition-colors">100%</span>
-                 <span className="text-sm text-gray-500 font-medium mt-1">Satisfaction</span>
-              </div>
-              <div className="flex flex-col group/stat cursor-default">
-                 <span className="text-3xl font-extrabold text-black group-hover/stat:text-brand transition-colors">24h</span>
-                 <span className="text-sm text-gray-500 font-medium mt-1">Support</span>
-              </div>
-            </div>
 
             <a href="#contact" className="inline-block bg-gray-900 text-white px-8 py-4 rounded-full font-bold hover:bg-brand hover:text-black hover:shadow-[0_10px_20px_-10px_rgba(74,246,38,0.6)] hover:-translate-y-1 transition-all duration-300">
                 Download CV
