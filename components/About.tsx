@@ -42,7 +42,7 @@ const About: React.FC = () => {
             </p>
              
             <p className="text-gray-600 text-lg leading-relaxed mb-10">
-              I’ve worked with travel, logistics, and retail brands, ensuring they stay active online while maintaining crystal-clear communication with their customers. I pride myself on being reliable, organized, and proactive.
+              I've worked with travel, logistics, and retail brands, ensuring they stay active online while maintaining crystal-clear communication with their customers. I pride myself on being reliable, organized, and proactive.
             </p>
 
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mb-10 border-t border-gray-100 pt-8">
