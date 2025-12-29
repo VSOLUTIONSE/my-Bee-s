@@ -60,9 +60,6 @@ const Services: React.FC = () => {
                     </li>
                 ))}
               </ul>
-              <a href="#contact" className="inline-flex items-center text-sm font-bold text-gray-900 group-hover:text-brand-dark transition-colors">
-                Learn more <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform text-brand" />
-              </a>
             </div>
           ))}
         </div>

@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
                     <a href="mailto:hello@abisoyegabriel.com" className="bg-brand text-gray-900 hover:bg-white hover:text-black transition-colors px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-[0_4px_14px_0_rgba(74,246,38,0.39)] hover:-translate-y-1 duration-300">
                         <Mail size={20} /> hello@abisoyegabriel.com
                     </a>
-                    <a href="#" className="bg-white/10 backdrop-blur-md text-white hover:bg-white/20 transition-colors px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 border border-white/10 hover:border-white/20 hover:text-brand hover:-translate-y-1 duration-300">
+                    <a href="https://wa.me/2347062511217" className="bg-white/10 backdrop-blur-md text-white hover:bg-white/20 transition-colors px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 border border-white/10 hover:border-white/20 hover:text-brand hover:-translate-y-1 duration-300">
                         <Phone size={20} /> WhatsApp Me
                     </a>
                 </div>

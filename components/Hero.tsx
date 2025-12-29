@@ -1,5 +1,6 @@
 import React from 'react';
 import { Instagram, Facebook, MessageCircle, Mail, ArrowRight } from 'lucide-react';
+import beeProf from '../components/img/bee-prof.png'
 
 const Hero: React.FC = () => {
   return (
@@ -31,7 +32,7 @@ const Hero: React.FC = () => {
               I help businesses, brands and companies manage their social media, engage customers, and stay organized remotely. Reliable, creative, and profitable.
               <br/>
               <span className="font-semibold text-gray-900 mt-3 block flex items-center gap-2">
-                 🚀 Strategy | Content | Admin Support
+                 Strategy | Content | Admin Support
               </span>
             </p>
 
@@ -49,9 +50,9 @@ const Hero: React.FC = () => {
               <span className="text-sm font-semibold text-gray-400 uppercase tracking-wider">Follow Me</span>
               <div className="h-px w-12 bg-gray-200"></div>
               <div className="flex space-x-3">
-                <a href="#" className="w-10 h-10 rounded-full bg-white border border-gray-100 shadow-sm flex items-center justify-center text-gray-600 hover:bg-black hover:text-brand hover:border-black hover:-translate-y-1 transition-all"><Instagram size={20} /></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white border border-gray-100 shadow-sm flex items-center justify-center text-gray-600 hover:bg-black hover:text-brand hover:border-black hover:-translate-y-1 transition-all"><Facebook size={20} /></a>
-                <a href="#" className="w-10 h-10 rounded-full bg-white border border-gray-100 shadow-sm flex items-center justify-center text-gray-600 hover:bg-black hover:text-brand hover:border-black hover:-translate-y-1 transition-all"><MessageCircle size={20} /></a>
+                <a href="https://www.instagram.com/abiisioye?igsh=Mm9nOHNqNXgyMWZu" target="_blank" className="w-10 h-10 rounded-full bg-white border border-gray-100 shadow-sm flex items-center justify-center text-gray-600 hover:bg-black hover:text-brand hover:border-black hover:-translate-y-1 transition-all"><Instagram size={20} /></a>
+                <a href="https://www.facebook.com/kwishiana.gabriel" target="_blank" className="w-10 h-10 rounded-full bg-white border border-gray-100 shadow-sm flex items-center justify-center text-gray-600 hover:bg-black hover:text-brand hover:border-black hover:-translate-y-1 transition-all"><Facebook size={20} /></a>
+
               </div>
             </div>
           </div>
@@ -65,7 +66,7 @@ const Hero: React.FC = () => {
                 {/* Main Circle & Image */}
                 <div className="absolute inset-0 rounded-full overflow-hidden border-8 border-white shadow-2xl z-10">
                     <img 
-                      src="https://picsum.photos/id/64/800/800" 
+                      src={beeProf}
                       alt="Abisoye Gabriel" 
                       className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                     />
