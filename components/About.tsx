@@ -1,6 +1,6 @@
 import React from 'react';
 import bee3 from '../components/img/bee3.jpg';
-import cv from './file/Christiana Gabriel -_Executive assistant-Resume.pdf.pdf';
+import cv from './file/Christiana_Gabriel_CV.pdf';
 
 const About: React.FC = () => {
   return (
