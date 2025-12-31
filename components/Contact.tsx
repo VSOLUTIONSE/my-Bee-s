@@ -22,8 +22,8 @@ const Contact: React.FC = () => {
                     <p className="text-gray-300 text-lg max-w-lg font-medium">Ready to elevate your digital presence? I'm just a message away.</p>
                 </div>
                 <div className="flex flex-col sm:flex-row gap-4 w-full md:w-auto">
-                    <a href="mailto:hello@abisoyegabriel.com" className="bg-brand text-gray-900 hover:bg-white hover:text-black transition-colors px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-[0_4px_14px_0_rgba(74,246,38,0.39)] hover:-translate-y-1 duration-300">
-                        <Mail size={20} /> hello@abisoyegabriel.com
+                    <a href="mailto:gabrielabisoye@gmail.com" className="bg-brand text-gray-900 hover:bg-white hover:text-black transition-colors px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 shadow-[0_4px_14px_0_rgba(74,246,38,0.39)] hover:-translate-y-1 duration-300">
+                        <Mail size={20} /> gabrielabisoye@gmail.com
                     </a>
                     <a href="https://wa.me/2347062511217" className="bg-white/10 backdrop-blur-md text-white hover:bg-white/20 transition-colors px-8 py-4 rounded-full font-bold flex items-center justify-center gap-3 border border-white/10 hover:border-white/20 hover:text-brand hover:-translate-y-1 duration-300">
                         <Phone size={20} /> WhatsApp Me
