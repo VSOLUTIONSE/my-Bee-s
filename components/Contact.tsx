@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; // Updated for GitHub MCP demo
 import { Mail, Phone, ArrowUp } from 'lucide-react';
 
 const Contact: React.FC = () => {
