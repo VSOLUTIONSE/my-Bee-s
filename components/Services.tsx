@@ -22,7 +22,7 @@ const services: ServiceItem[] = [
     details: ["Customer support & follow-ups", "Email & Calendar management", "Data entry & research", "General admin tasks"]
   },
     {
-    title: "YouTube Management",
+    title: "Intagram Management",
     description: "Handling your channel from upload to optimization.",
     icon: Video,
     details: ["Faceless content management", "Uploads & scheduling", "YouTube Studio handling", "Thumbnail coordination"]

@@ -5,7 +5,7 @@ const Marquee: React.FC = () => {
   const items = [
     "SOCIAL MEDIA",
     "CONTENT CREATION",
-    "VIRTUAL ASSISTANT"
+    "VIRTUAL ASSISTANT",
   ];
 
   return (

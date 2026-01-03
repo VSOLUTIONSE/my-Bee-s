@@ -6,29 +6,39 @@ const Portfolio: React.FC = () => {
     const works = [
         {
             title: "Logistics Brand Awareness",
-            category: "Instagram Management",
+            category: "Instagram Campaign",
             image: "https://picsum.photos/id/1/600/600",
-            tag: "Sukom Logistics"
+            tag: "Sukom Logistics",
+            link: "https://drive.google.com/file/d/1r819OqC1_regqtziJiqfpl2oRrzMNsju/view?usp=drivesdk" // Replace with actual Google Drive link
         },
         {
             title: "Travel Promo Campaign",
             category: "Flyer Design",
             image: "https://picsum.photos/id/20/600/800",
-            tag: "Sukom Travel"
+            tag: "Sukom Travel",
+            link: "https://drive.google.com/file/d/1oFzUU_1-hXLr6W2j1-hHawWPIzAk6uAg/view?usp=drive_link" // Replace with actual Google Drive link
         },
         {
-            title: "YouTube Channel Growth",
+            title: "Intagram managemnet",
             category: "Channel Management",
             image: "https://picsum.photos/id/3/600/400",
-            tag: "Mindrave"
+            tag: "Mindrave",
+            link: "https://drive.google.com/file/d/1ucCpCKRoO68MOBmiAFGaalJre59T_5JL/view?usp=drive_link" // Replace with actual Google Drive link
         },
         {
             title: "Product Showcase Reels",
             category: "Video Editing",
             image: "https://picsum.photos/id/4/600/600",
-            tag: "Retail Client"
+            tag: "Retail Client",
+            link: "https://drive.google.com/file/d/16MbOrQ7V9I99hDo4kWth5AifA7tB_5eA/view?usp=drive_link" // Replace with actual Google Drive link
         }
     ];
+
+    const handleWorkClick = (link: string) => {
+        if (link !== "#") {
+            window.open(link, '_blank', 'noopener,noreferrer');
+        }
+    };
 
   return (
     <section id="portfolio" className="py-24 bg-gray-900 text-white rounded-t-[3rem] md:rounded-t-[4rem] mt-10 relative z-10 scroll-mt-28">
@@ -40,7 +50,11 @@ const Portfolio: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
             {works.map((work, idx) => (
-                <div key={idx} className="group relative overflow-hidden rounded-[2rem] bg-gray-800 aspect-[4/3] cursor-pointer shadow-2xl hover:shadow-[0_20px_40px_-15px_rgba(74,246,38,0.3)] transition-all duration-500">
+                <div 
+                    key={idx} 
+                    className="group relative overflow-hidden rounded-[2rem] bg-gray-800 aspect-[4/3] cursor-pointer shadow-2xl hover:shadow-[0_20px_40px_-15px_rgba(74,246,38,0.3)] transition-all duration-500"
+                    onClick={() => handleWorkClick(work.link)}
+                >
                     <img 
                         src={work.image} 
                         alt={work.title} 

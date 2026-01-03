@@ -38,10 +38,10 @@ const Contact: React.FC = () => {
                 <span className="text-2xl font-bold tracking-tight text-gray-900">Abisoye<span className="text-brand">.Gabriel</span></span>
             </div>
             
-            <div className="flex gap-8 mb-6 md:mb-0">
-                <a href="#" className="text-gray-500 hover:text-black font-medium transition-colors hover:underline decoration-brand decoration-2 underline-offset-4">Instagram</a>
-                <a href="#" className="text-gray-500 hover:text-black font-medium transition-colors hover:underline decoration-brand decoration-2 underline-offset-4">Facebook</a>
-                <a href="#" className="text-gray-500 hover:text-black font-medium transition-colors hover:underline decoration-brand decoration-2 underline-offset-4">LinkedIn</a>
+            <div className="flex justify-center gap-8 mb-6 md:mb-0">
+                <a href="https://www.instagram.com/abiisioye?igsh=Mm9nOHNqNXgyMWZu"  target="_blank" className="text-gray-500 hover:text-black font-medium transition-colors hover:underline decoration-brand decoration-2 underline-offset-4">Instagram</a>
+                <a href="https://www.facebook.com/kwishiana.gabriel"  target="_blank" className="text-gray-500 hover:text-black font-medium transition-colors hover:underline decoration-brand decoration-2 underline-offset-4">Facebook</a>
+                {/* <a href="#" className="text-gray-500 hover:text-black font-medium transition-colors hover:underline decoration-brand decoration-2 underline-offset-4">LinkedIn</a> */}
             </div>
 
             <div className="flex items-center gap-4">

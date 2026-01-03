@@ -13,10 +13,7 @@ const Hero: React.FC = () => {
           
           {/* Left Content */}
           <div className="w-full lg:w-1/2 space-y-8 lg:pr-12 animate-fade-in-up">
-            <div className="inline-flex items-center space-x-2 bg-brand/10 border border-brand text-black px-4 py-2 rounded-full text-sm font-bold shadow-sm hover:shadow-md transition-shadow cursor-default">
-              <span className="w-2.5 h-2.5 bg-brand rounded-full animate-pulse shadow-[0_0_8px_rgba(74,246,38,0.8)]"></span>
-              <span>Available for New Projects</span>
-            </div>
+
             
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900">
               I'm <span className="relative inline-block">
