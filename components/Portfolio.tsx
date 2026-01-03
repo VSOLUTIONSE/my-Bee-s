@@ -23,7 +23,11 @@ const Portfolio: React.FC = () => {
             category: "Channel Management",
             image: "https://picsum.photos/id/3/600/400",
             tag: "Mindrave",
+<<<<<<< HEAD
             link: "https://drive.google.com/file/d/1ucCpCKRoO68MOBmiAFGaalJre59T_5JL/view?usp=drive_link" // Replace with actual Google Drive link
+=======
+            link: "#" // Replace with actual Google Drive link
+>>>>>>> 9d4c2eb9e924836180bf6314db547b3312ed43e2
         },
         {
             title: "Product Showcase Reels",
